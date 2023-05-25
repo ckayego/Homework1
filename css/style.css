@@ -1,1 +1,73 @@
+/*
+File: style.css
+GUI Assignment: Creating Your First Web Page
+Christian Kayego, UMass Lowell Computer Science, christian_kayego@student.uml.ed
+First Web Page. This is  my first web page that will be like an official site of the 
+country of Senegal which is where I come from. It'll contain general information about the country,
+some pictures, links and other details regarding the country.
+Copyright (c) 2023 by Christian Kayego. All rights reserved. May be freely copied or
+excerpted for educational purposes with credit to the author.
+updated by Christian Kayego on May 22, 2023 at 9:23 AM
+*/
 
+
+           /* This centers the main Title and changes the background */
+      header 
+      {
+        text-align: center;
+        padding: 40px;
+        background-color: lightblue;
+      }
+
+
+           /* The images are centered */
+      article img 
+      {
+        display: block;
+        margin: 20px auto;
+        max-width: 100%;
+        height: auto;
+      }
+
+          /* Modified the table*/
+          table 
+      {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+      }
+
+      /* Modified the table headings */
+      th 
+      {
+        padding: 10px;
+      }
+
+      /* Modifified the table cells */
+      td 
+      {
+        padding: 10px;
+        text-align: center;
+      }
+      /* Set the color of the whole website */
+      body 
+      {
+        background-color: lightblue;
+      }
+
+    /* Set a black line below the main title */
+           header h1 
+      {
+        border-bottom: 1px solid black;
+        padding-bottom: 10px;
+      }
+
+      <p>
+    <a href="http://jigsaw.w3.org/css-validator/check/referer">
+        <img style="border:0;width:88px;height:31px"
+            src="http://jigsaw.w3.org/css-validator/images/vcss"
+            alt="Valid CSS!" />
+    </a>
+</p>
+      
+    
